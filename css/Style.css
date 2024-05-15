@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+
+body {
+  font-family: cursive;
+  background-color: rgb(241, 249, 252);
+}
+
+/* header */
+header {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+/* navbar */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+nav li {
+  float: right;
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  color: beige;
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgb(44, 63, 47);
+}
+
+/* biografi singkat */
+.biografi-singkat {
+  text-align: left;
+  margin: 50px;
+  margin-right: 15%;
+  background-color: beige;
+  border-start-end-radius: 50%;
+  border-top-left-radius: 30px;
+}
+
+.biografi-singkat h2 {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.biografi-singkat p {
+  font-size: 16px;
+  padding: 55px;
+  font-size: larger;
+}
+
+/* history */
+.cerita-perjalanan {
+  padding: 50px;
+  background-color: rgb(203, 203, 207);
+  margin: 50px;
+}
+
+.cerita-perjalanan h2 {
+  font-size: 24;
+  margin-bottom: 20px;
+}
+
+.cerita-perjalanan p {
+  font-size: 16px;
+}
+
+/* porto */
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+
+.video-container {
+  width: 300px;
+  margin: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 200px;
+  border: 4px solid #ccc;
+}
+
+/* kontak */
+.kontak {
+  background-color: rgb(13, 0, 255);
+  color: wheat;
+  padding: 50px;
+  text-align: center;
+}
+
+.kontak h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.kontak ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kontak li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.kontak a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  margin-top: 40px;
+  background-color: rgb(25, 29, 43);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
