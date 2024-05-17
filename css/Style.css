@@ -78,18 +78,17 @@ nav a:hover {
 
 .home button {
   color: white;
-  background-color: rgb(14, 1, 112);
+  background-color: royalblue;
   padding: 17px;
   margin-right: 10px;
-  margin-top: -10%;
   border-radius: 10px;
+  margin-top: -20%;
 }
 
 .home a {
-  background-color: whitesmoke;
+  background-color: pink;
   padding: 11px;
   text-decoration: none;
-  border: 2px solid black;
 }
 /* biografi singkat */
 .biografi-singkat {
@@ -98,6 +97,7 @@ nav a:hover {
   background: black;
   border-radius: 15px 500px 15px 15px;
   margin-left: 50px;
+  margin-right: 50px;
   margin-top: 10%;
   border: 5px solid blue;
   color: white;
@@ -118,15 +118,39 @@ nav a:hover {
 
 /* history */
 .cerita-perjalanan {
+  color: black;
+  display: flex;
+  justify-content: space-between;
   padding: 50px;
-  background-color: rgb(183, 162, 162);
+  background: linear-gradient(black, blue);
   margin: 50px;
-  border: 10px solid rgb(0, 0, 0);
+  border: 5px solid blue;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.story-notes {
+  background-color: white;
+  margin: 25px;
+  padding: 25px;
+  align-items: center;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.story-notes img {
+  border-radius: 50%;
+  height: 200px;
+  position: relative;
+  margin-top: -25%;
+  border: 5px solid blue;
 }
 
 .cerita-perjalanan h2 {
   font-size: 24;
   margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline rgb(2, 31, 148);
 }
 
 .cerita-perjalanan p {
