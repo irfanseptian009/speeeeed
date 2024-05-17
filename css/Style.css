@@ -22,7 +22,7 @@ body {
 
 /* header */
 header {
-  background-color: blue;
+  background: linear-gradient(70deg, blue, black);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(44, 63, 47);
+  background-color: blue;
 }
 
 /* home */
@@ -78,26 +78,28 @@ nav a:hover {
 
 .home button {
   color: white;
-  background-color: blueviolet;
-  padding: 15px;
-  border-radius: 5px;
+  background-color: rgb(14, 1, 112);
+  padding: 17px;
   margin-right: 10px;
+  margin-top: -10%;
+  border-radius: 10px;
 }
 
 .home a {
-  background-color: aliceblue;
+  background-color: whitesmoke;
   padding: 11px;
   text-decoration: none;
+  border: 2px solid black;
 }
 /* biografi singkat */
 .biografi-singkat {
   text-align: left;
   padding: 25px;
-  margin: 0px;
   background: black;
   border-radius: 15px 500px 15px 15px;
-  margin: 50px;
-  border: 10px solid blue;
+  margin-left: 50px;
+  margin-top: 10%;
+  border: 5px solid blue;
   color: white;
 }
 
