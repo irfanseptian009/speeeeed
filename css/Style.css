@@ -60,19 +60,20 @@ nav a:hover {
 .home {
   padding: 50px;
   color: white;
-  background: linear-gradient(70deg, black, blue);
+  background: linear-gradient(70deg, blue, black);
   margin: 50px;
   border-radius: 15px;
 }
 
 .home h2 {
-  text-align: center;
+  text-align: left;
   font-size: 45px;
 }
 
 .home p {
   text-align: left;
   margin: 50px;
+  font-size: 19px;
 }
 
 .home button {
