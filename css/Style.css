@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.baground {
+  background-image: url("/asset/bg.jpg");
+  height: auto;
+  background-attachment: scroll;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* body */
 
 body {
@@ -13,29 +22,26 @@ body {
 
 /* header */
 header {
-  background-color: rgb(255, 0, 0);
+  background-color: blue;
   color: white;
-  text-align: left;
-  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
 }
 
 header h1 {
   font-size: 50px;
-  margin-top: 10px;
 }
 
 /* navbar */
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
-  padding-bottom: 20px;
 }
 
 nav li {
   float: right;
-  margin-right: 20px;
 }
 
 nav a {
@@ -50,34 +56,69 @@ nav a:hover {
   background-color: rgb(44, 63, 47);
 }
 
+/* home */
+.home {
+  padding: 50px;
+  color: white;
+  background: linear-gradient(70deg, black, blue);
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.home h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.home p {
+  text-align: left;
+  margin: 50px;
+}
+
+.home button {
+  color: white;
+  background-color: blueviolet;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.home a {
+  background-color: aliceblue;
+  padding: 11px;
+  text-decoration: none;
+}
 /* biografi singkat */
 .biografi-singkat {
   text-align: left;
+  padding: 25px;
+  margin: 0px;
+  background: black;
+  border-radius: 15px 500px 15px 15px;
   margin: 50px;
-  margin-right: 15%;
-  background-color: beige;
-  border-start-end-radius: 50%;
-  border-top-left-radius: 30px;
+  border: 10px solid blue;
+  color: white;
 }
 
 .biografi-singkat h2 {
   font-size: 40px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .biografi-singkat p {
-  font-size: 16px;
-  padding: 55px;
-  font-size: larger;
+  font-size: 20px;
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* history */
 .cerita-perjalanan {
   padding: 50px;
-  background-color: rgb(203, 203, 207);
+  background-color: rgb(183, 162, 162);
   margin: 50px;
+  border: 10px solid rgb(0, 0, 0);
 }
 
 .cerita-perjalanan h2 {
