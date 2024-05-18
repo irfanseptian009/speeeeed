@@ -16,7 +16,7 @@
 /* body */
 
 body {
-  font-family: cursive;
+  font-family: sans-serif;
   background-color: rgb(241, 249, 252);
 }
 
@@ -28,6 +28,7 @@ header {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
+  font-family: cursive;
 }
 
 header h1 {
@@ -122,9 +123,9 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   padding: 50px;
-  background: linear-gradient(black, blue);
+  background: linear-gradient(blue, white);
   margin: 50px;
-  border: 5px solid blue;
+
   gap: 20px;
   border-radius: 15px;
 }
@@ -136,6 +137,7 @@ nav a:hover {
   align-items: center;
   border-radius: 15px;
   text-align: center;
+  box-shadow: 10px 10px blue;
 }
 
 .story-notes img {
@@ -147,14 +149,83 @@ nav a:hover {
 }
 
 .cerita-perjalanan h2 {
-  font-size: 24;
+  font-size: medium;
   margin-bottom: 20px;
   text-align: center;
   text-decoration: underline rgb(2, 31, 148);
 }
 
 .cerita-perjalanan p {
-  font-size: 16px;
+  text-align: justify;
+}
+
+/* service */
+.service {
+  background: linear-gradient(rgb(255, 255, 255), red);
+  margin: 50px;
+  border-radius: 15px;
+  padding-bottom: 100px;
+  /* border: 1px solid red; */
+}
+
+.service div {
+  background-color: rgb(252, 214, 214);
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  border-radius: 15px;
+}
+.service div div {
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.service h4 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.service h1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+}
+.service h5 {
+  margin-bottom: 15px;
+  color: #9c9898;
+  text-align: center;
+}
+
+.service a {
+  color: blue;
+}
+
+/* subscribed */
+.subscribed {
+  display: flex;
+  flex-direction: row;
+  color: rgb(230, 230, 230);
+  justify-content: center;
+  padding-top: 100px;
+  gap: 200px;
+}
+
+.subscribed div {
+  padding: 10px;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.subscribed div div {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
 }
 
 /* porto */
@@ -207,7 +278,6 @@ nav a:hover {
 
 /* footer */
 footer {
-  margin-top: 40px;
   background-color: rgb(25, 29, 43);
   color: white;
   padding: 20px;
