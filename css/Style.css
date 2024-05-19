@@ -137,7 +137,7 @@ nav a:hover {
   align-items: center;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 10px 10px blue;
+  box-shadow: 10px 10px rgb(210, 210, 238);
 }
 
 .story-notes img {
