@@ -39,6 +39,7 @@ header h1 {
 nav ul {
   list-style: none;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 nav li {
