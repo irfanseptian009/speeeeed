@@ -5,7 +5,7 @@
 }
 
 .baground {
-  background-image: url("asset/bg.jpg");
+  background-image: url("../asset/bg.jpg");
   height: auto;
   background-attachment: scroll;
   background-position: auto;
